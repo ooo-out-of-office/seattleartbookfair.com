@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "build:css": "postcss src/styles.css -o public/styles.css",
+    "export": "next export",
     "start": "next start",
-    "build:css": "postcss src/styles.css -o public/styles.css "
+    "prepare": "npm run build:css && npm run build && npm run export "
   },
   "keywords": [],
   "author": "",
