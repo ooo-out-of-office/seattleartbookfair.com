@@ -1,0 +1,36 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.index {
+  @apply bg-blue;
+}
+.exhibitors {
+  @apply bg-pink;
+}
+.programs {
+  @apply bg-yellow;
+}
+.sponsorship {
+  @apply bg-green;
+}
+
+a {
+  @apply underline;
+}
+
+h1 {
+  @apply text-xl;
+}
+
+h2 {
+  @apply text-lg;
+}
+
+.nav__link::after {
+  content: "||||";
+}
+
+.nav__link:last-child::after {
+  content: "";
+}
