@@ -176,7 +176,8 @@ module.exports = {
     spacing: {
       1: "1px",
       sm: "10px",
-      lg: "20px"
+      lg: "20px",
+      grid: "40px"
     },
     stroke: {
       current: "currentColor"
@@ -227,7 +228,9 @@ module.exports = {
       "40": "40",
       "50": "50"
     },
-    gap: theme => theme("spacing"),
+    gap: theme => ({
+      ...theme("spacing")
+    }),
     gridTemplateColumns: {
       none: "none",
       "1": "repeat(1, minmax(0, 1fr))",

@@ -1,16 +1,11 @@
-import Head from "next/head";
-
 const Index = () => {
   return (
     <React.Fragment>
-      <Head>
-        <title>Seattle</title>
-      </Head>
-      <section className="grid grid-cols-4 md:grid-cols-8 gap-lg">
+      <section className="grid gap-grid grid-cols-4 md:grid-cols-8 ">
         <aside className="col-span-2 md:col-start-7">
           <p>Seattle</p>
         </aside>
-        <div className="col-span-6 md:row-start-1">
+        <div className="col-span-4 md:col-span-6 md:row-start-1">
           <p className="text-intro">
             The Seattle Art Book Fair is a free, weekend-long festival that
             celebrates all kinds of art books. The inaugural fair will feature
@@ -21,7 +16,7 @@ const Index = () => {
             publishing.
           </p>
         </div>
-        <div class="col-span-4">
+        <div className="col-span-4">
           <h2>About Art Books</h2>
           <p>
             Art books are a broad category of publications by artists,
@@ -31,7 +26,7 @@ const Index = () => {
             possibilities of what books can be.
           </p>
         </div>
-        <div class="col-span-4">
+        <div className="col-span-4">
           <h2>SABF 2020 Team</h2>
           <p>
             Art books are a broad category of publications by artists,
@@ -41,7 +36,7 @@ const Index = () => {
             possibilities of what books can be.
           </p>
         </div>
-        <div class="col-span-4">
+        <div className="col-span-4">
           <h2>Powered by Shunpike</h2>
           <p>
             Seattle Art Book Fair is powered by Shunpike, an organization
@@ -49,7 +44,7 @@ const Index = () => {
             opportunities, and business services.
           </p>
         </div>
-        <div class="col-span-4">
+        <div className="col-span-4">
           <h2>Get Involved</h2>
           <p>
             Interested in volunteering with Seattle Art Book Fair? Get in touch

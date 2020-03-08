@@ -18,7 +18,7 @@ export default function Nav() {
 
   return (
     <nav>
-      <ul className="flex">
+      <ul className="flex flex-col md:flex-row">
         <li className="nav__link">
           {renderLink({ url: "/", text: "About", override: "index" })}
         </li>

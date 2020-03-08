@@ -1,12 +1,19 @@
-import Head from "next/head";
+import Helmet from "react-helmet";
 
 const Exhibitors = () => {
   return (
     <React.Fragment>
-      <Head>
-        <title>Seattle - Exhibitors</title>
-      </Head>
-      <div>Exhibitors</div>
+      <Helmet>
+        <title>Exhibitors</title>
+      </Helmet>
+      <section className="grid gap-grid gap-grid grid-cols-4 md:grid-cols-8 ">
+        <div className="col-span-4">
+          <div>Exhibitors</div>
+        </div>
+        <div className="col-span-4">
+          <div>Exhibitors</div>
+        </div>
+      </section>
     </React.Fragment>
   );
 };

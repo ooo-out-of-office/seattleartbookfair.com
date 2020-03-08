@@ -27,10 +27,10 @@ h2 {
   @apply text-lg;
 }
 
-.nav__link::after {
+.nav__link::before {
   content: "||||";
 }
 
-.nav__link:last-child::after {
+.nav__link:first-child::before {
   content: "";
 }
