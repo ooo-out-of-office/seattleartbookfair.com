@@ -16,6 +16,10 @@ class MyApp extends App {
           titleTemplate="%s — Seattle Art Book Fair"
           defaultTitle="Seattle Art Book Fair"
         >
+          <link
+            href="https://fonts.googleapis.com/css?family=Chivo|Unna&display=swap"
+            rel="stylesheet"
+          />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Helmet>
         <StaticConfigProvider value={{ currentPage }}>

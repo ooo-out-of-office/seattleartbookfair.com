@@ -72,6 +72,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        "Chivo",
         "system-ui",
         "-apple-system",
         "BlinkMacSystemFont",
@@ -86,7 +87,14 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"'
       ],
-      serif: ["Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
+      serif: [
+        "Unna",
+        "Georgia",
+        "Cambria",
+        '"Times New Roman"',
+        "Times",
+        "serif"
+      ],
       mono: [
         "Menlo",
         "Monaco",
@@ -172,7 +180,7 @@ module.exports = {
       "12": "12"
     },
     padding: theme => theme("spacing"),
-    placeholderColor: theme => theme("colors"),
+    placeholderColor: {},
     spacing: {
       1: "1px",
       sm: "10px",
