@@ -20,7 +20,7 @@ class MyApp extends App {
         </Helmet>
         <StaticConfigProvider value={{ currentPage }}>
           <div
-            className={`${currentPage} fixed inset-0 m-lg p-lg overflow-auto`}
+            className={`${currentPage} fixed inset-0 md:m-lg p-lg overflow-auto`}
           >
             <header className="flex" style={{ height: "226px" }}>
               <a href="/" className="mr-auto">

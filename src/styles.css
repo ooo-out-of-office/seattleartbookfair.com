@@ -28,7 +28,7 @@ h2 {
 }
 
 .nav__link::before {
-  content: "||||";
+  content: "\\\\\\\\";
 }
 
 .nav__link:first-child::before {
