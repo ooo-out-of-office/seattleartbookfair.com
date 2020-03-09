@@ -15,7 +15,7 @@ const Exhibitors = () => {
         <ul className="flex flex-row flex-wrap text-sm">
           {exhibitors.map(e => {
             return (
-              <li className="mr-sm mb-sm">
+              <li key={e.name} className="mr-sm mb-sm">
                 <span
                   className={
                     e.name === currentExhibitor.name ? "underline" : null
