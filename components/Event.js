@@ -2,7 +2,7 @@ export default function Event(props) {
   const { time, location, title, description, handle, url } = props;
 
   return (
-    <article>
+    <article className="my-lg">
       <div className="flex">
         <span className="mr-auto">{time}</span>
         <span>{location}</span>

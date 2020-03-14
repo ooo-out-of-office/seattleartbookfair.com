@@ -3,10 +3,15 @@ const Index = () => {
     <React.Fragment>
       <section className="grid gap-grid grid-cols-4 md:grid-cols-8 ">
         <aside className="col-span-2 md:col-start-7">
-          <p>Seattle</p>
+          <h2>Mary 8—10, 2020</h2>
+          <div>
+            Friday 5 PM–8 PM <br />
+            Saturday 11 AM–6 PM <br />
+            Sunday 11 AM–5 PM
+          </div>
         </aside>
         <div className="col-span-4 md:col-span-6 md:row-start-1">
-          <p className="text-intro">
+          <p className="text-md lg:text-lg">
             The Seattle Art Book Fair is a free, weekend-long festival that
             celebrates all kinds of art books. The inaugural fair will feature
             local, national, and international artists, designers, and

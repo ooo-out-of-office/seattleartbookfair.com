@@ -141,7 +141,16 @@
     "description": "Half empty? or Half full? Half Table is an art collective (table) that constantly invites artists for collaborating & sharing.",
     "url": "https://www.instagram.com/half.table/",
     "handle": "https://www.instagram.com/half.table",
-    "tags": ["Photography", "Illustration", "Typography", "Zines", "Poetry", "LGBTQ+", "Social Justice", "Personal"]
+    "tags": [
+      "Photography",
+      "Illustration",
+      "Typography",
+      "Zines",
+      "Poetry",
+      "LGBTQ+",
+      "Social Justice",
+      "Personal"
+    ]
   },
   {
     "name": "Henry Art Gallery",
@@ -150,7 +159,17 @@
     "description": "The Henry Art Gallery, located on the University of Washington campus, is internationally recognized for bold and challenging exhibitions, for being the first to premiere new works by established and emerging artists, and for highlighting contemporary art practice through multidisciplinary programs.",
     "url": "https://henryart.org",
     "handle": "https://www.instagram.com/henryartgallery",
-    "tags": ["Photography", "BIPOC", "LGBTQ+", "contemporary art", "museums", "sculpture", "painting", "exhibition catalogue", "multi-media"]
+    "tags": [
+      "Photography",
+      "BIPOC",
+      "LGBTQ+",
+      "contemporary art",
+      "museums",
+      "sculpture",
+      "painting",
+      "exhibition catalogue",
+      "multi-media"
+    ]
   },
   {
     "name": "HOMOCATS",
@@ -213,7 +232,16 @@
     "description": "Meshell is a Ph.D. Candidate in the Department of Communication and a Research Assistant for the Center for Communication, Difference, and Equity.  Her has a B.A. in English, with a Creative Writing minor and an M.A. in Cultural Studies.",
     "url": "http://meshellsturgis.com",
     "handle": "",
-    "tags": ["Illustration", "BIPOC", "LGBTQ+", "Personal", "Black Feminism", "Biomythography", "Comix", "Chapbook"]
+    "tags": [
+      "Illustration",
+      "BIPOC",
+      "LGBTQ+",
+      "Personal",
+      "Black Feminism",
+      "Biomythography",
+      "Comix",
+      "Chapbook"
+    ]
   },
   {
     "name": "MONDAY Art Journal | Jacob Lawrence Gallery",
@@ -222,7 +250,15 @@
     "description": "MONDAY Art Journal is a biannual art journal produced by the Jacob Lawrence Gallery. MONDAY presents experiments in arts writing that anticipate the future directions of criticism. \n\nThe Jacob Lawrence Gallery is the gallery of the University of Washington School of Art + Art History + Design.",
     "url": "https://monday-journal.com/",
     "handle": "https://www.instagram.com/mondayartjournal",
-    "tags": ["Photography", "Typography", "Poetry", "Social Justice", "Art", "Criticism", "Art Writing"]
+    "tags": [
+      "Photography",
+      "Typography",
+      "Poetry",
+      "Social Justice",
+      "Art",
+      "Criticism",
+      "Art Writing"
+    ]
   },
   {
     "name": "Moniker Press",
@@ -231,7 +267,14 @@
     "description": "Moniker Press is a risograph print and publishing studio in Vancouver, BC, that works collaboratively with artists and writers to produce small editions of books, zines and print ephemera.",
     "url": "https://www.monikerpress.ca/",
     "handle": "",
-    "tags": ["Photography", "Illustration", "Zines", "LGBTQ+", "Social Justice", "Personal"]
+    "tags": [
+      "Photography",
+      "Illustration",
+      "Zines",
+      "LGBTQ+",
+      "Social Justice",
+      "Personal"
+    ]
   },
   {
     "name": "Monograph Bookwerks",
@@ -240,7 +283,18 @@
     "description": "Monograph Bookwerks is an art, object and ephemera bookstore based in Portland, OR focusing on contemporary art and artists, design, architecture, the avant-garde, counterculture and social/political activism, primarily from the 1960s to the present day.",
     "url": "https://www.monographbookwerks.com/",
     "handle": "https://www.instagram.com/monographbookwerks",
-    "tags": ["Typography", "Social Justice", "design", "architecture", "ephemera", "counterculture", "artists' books", "radical", "avant-garde", "exhibition documents"]
+    "tags": [
+      "Typography",
+      "Social Justice",
+      "design",
+      "architecture",
+      "ephemera",
+      "counterculture",
+      "artists' books",
+      "radical",
+      "avant-garde",
+      "exhibition documents"
+    ]
   },
   {
     "name": "Mortlake and Company",
@@ -249,7 +303,15 @@
     "description": "MORTLAKE AND COMPANY is a Seattle based bookshop, art gallery and home to Ouroboros Press. We offer a distinct selection of rare and curious books, feature a monthly art exhibition and host book launches and guest speakers on a wide range of esoteric subjects.",
     "url": "http://www.mortlake.co",
     "handle": "https://www.instagram.com/ouroboros_press",
-    "tags": ["Photography", "Illustration", "Typography", "Zines", "Alchemy", "Letterpress", "Design"]
+    "tags": [
+      "Photography",
+      "Illustration",
+      "Typography",
+      "Zines",
+      "Alchemy",
+      "Letterpress",
+      "Design"
+    ]
   },
   {
     "name": "National Monument Press",
@@ -285,7 +347,15 @@
     "description": "New Laconic presents contemporary findings in the form of books and art. We offer a space for research, serious irreverence, and inquisitive cross-disciplinary voices.\n\nDrawing on our extensive shared history in the art and design fields, we treat each publication as a fresh experiment in design and bookmaking.",
     "url": "https://newlaconic.com",
     "handle": "https://www.instagram.com/newlaconic",
-    "tags": ["Typography", "Zines", "Literature", "Poetry", "LGBTQ+", "Design", "art"]
+    "tags": [
+      "Typography",
+      "Zines",
+      "Literature",
+      "Poetry",
+      "LGBTQ+",
+      "Design",
+      "art"
+    ]
   },
   {
     "name": "NIGHTED",
@@ -303,7 +373,15 @@
     "description": "A community space and bookshop organized by Seite Books and Kaya Press. The programming and selection has an emphasis on literature in translation, POC creators in both literature and art, alternative comics, international art books and comics, independent presses, POC history, and the other in related contexts.",
     "url": "http://www.otherbooksla.com",
     "handle": "https://www.instagram.com/otherbooksla",
-    "tags": ["Photography", "Illustration", "Zines", "Poetry", "BIPOC", "LGBTQ+", "comics"]
+    "tags": [
+      "Photography",
+      "Illustration",
+      "Zines",
+      "Poetry",
+      "BIPOC",
+      "LGBTQ+",
+      "comics"
+    ]
   },
   {
     "name": "Paper Press Punch",
@@ -312,7 +390,15 @@
     "description": "Paper Press Punch is a community Risograph print and book studio located in Georgetown, Seattle. Run by artists Jessica Hoffman and Justin Quinlan, PPP does small batch printing for other artists in the Seattle area, in addition to hosting workshops, open studio print hours, and an annual residency.",
     "url": "https://www.paperpresspunch.com/",
     "handle": "https://www.instagram.com/paperpresspunch",
-    "tags": ["Photography", "Illustration", "Zines", "comics", "risograph", "printmaking", "book arts"]
+    "tags": [
+      "Photography",
+      "Illustration",
+      "Zines",
+      "comics",
+      "risograph",
+      "printmaking",
+      "book arts"
+    ]
   },
   {
     "name": "play.ground",
@@ -321,7 +407,17 @@
     "description": "play.ground is a bicoastal collective leveraging art and design as tools of progressive social change. Under play.ground’s banner, we endeavor to steer a process-driven dialogue towards the environment, community, and the poetic play of language and life.",
     "url": "https://play-ground.space/",
     "handle": "https://www.instagram.com/play.ground.space",
-    "tags": ["Photography", "Illustration", "Typography", "Zines", "BIPOC", "LGBTQ+", "Social Justice", "Personal", "Sustainability"]
+    "tags": [
+      "Photography",
+      "Illustration",
+      "Typography",
+      "Zines",
+      "BIPOC",
+      "LGBTQ+",
+      "Social Justice",
+      "Personal",
+      "Sustainability"
+    ]
   },
   {
     "name": "Publication Studio Vancouver",
@@ -339,7 +435,13 @@
     "description": "Push/Pull's mission is to promote underground art & comics - with a focus on building a sustainable community for the underground arts to thrive.\n\nPush/Pull Press publishes the works of Push/Pull's members and selected guests. Titles include curated anthologies, poetry, comics & handmade books.",
     "url": "http://www.pushpullseattle.com",
     "handle": "https://www.instagram.com/pushpullseattle",
-    "tags": ["Illustration", "Zines", "Poetry", "LGBTQ+", "Social Justice, Personal"]
+    "tags": [
+      "Illustration",
+      "Zines",
+      "Poetry",
+      "LGBTQ+",
+      "Social Justice, Personal"
+    ]
   },
   {
     "name": "R. Baxter & Co.",
@@ -348,7 +450,14 @@
     "description": "Publishing small works at the intersection of educational/academic material and artists' books—with emphasis on: (1) collected and simultaneous narratives, (2) documentation of archives, research, and process, and (3) texts for open use.",
     "url": "http://baxter.design",
     "handle": "https://www.instagram.com/poiesthesis",
-    "tags": ["Illustration", "Typography", "Zines", "Education", "Process", "Archival"]
+    "tags": [
+      "Illustration",
+      "Typography",
+      "Zines",
+      "Education",
+      "Process",
+      "Archival"
+    ]
   },
   {
     "name": "Shortt Editions",
@@ -375,7 +484,13 @@
     "description": "Based in Brooklyn, New York, Small Editions collaborates with contemporary artists to publish small edition bookworks and artists books. Building from a vibrant history of commissioned artists books, we seek to unite contemporary artmaking and book arts.",
     "url": "http://www.smalleditions.nyc",
     "handle": "https://www.instagram.com/smalleditionsnyc",
-    "tags": ["Photography", "Illustration", "Zines", "Artists Books", "Contemporary Art"]
+    "tags": [
+      "Photography",
+      "Illustration",
+      "Zines",
+      "Artists Books",
+      "Contemporary Art"
+    ]
   },
   {
     "name": "Storage book and film",
@@ -393,7 +508,14 @@
     "description": "Quarterly print comix rag",
     "url": "https://swampconemag.net",
     "handle": "https://www.instagram.com/swampconemag",
-    "tags": ["Illustration", "Zines", "Poetry", "LGBTQ+", "Personal", "anthology"]
+    "tags": [
+      "Illustration",
+      "Zines",
+      "Poetry",
+      "LGBTQ+",
+      "Personal",
+      "anthology"
+    ]
   },
   {
     "name": "The Bushwick Review",
@@ -402,7 +524,14 @@
     "description": "The Bushwick Review is a literary and art magazine that weaves together the work of more than 20 contributors in each issue. Our home base is Brooklyn, but our contributors live all over the world. We are interested in making art and writing that speaks to being alive in 2020.",
     "url": "http://thebushwickreview.com/",
     "handle": "https://www.instagram.com/bushwickreview",
-    "tags": ["Photography", "Illustration", "Literature", "Poetry", "LGBTQ+", "Personal"]
+    "tags": [
+      "Photography",
+      "Illustration",
+      "Literature",
+      "Poetry",
+      "LGBTQ+",
+      "Personal"
+    ]
   },
   {
     "name": "The Idea of the Book",
@@ -411,7 +540,14 @@
     "description": "Our purpose is to promote the history and tradition of books and materials in the overlapping fields of art, design, and concrete poetry. We specialize in artists’ books, ephemera, prints, correspondence, and art from the 1960s onward.",
     "url": "https://www.theideaofthebook.com",
     "handle": "https://www.instagram.com/theideaofthebook/",
-    "tags": ["Typography", "Concrete Poetry", "Visual Poetry", "Graphic Design", "Artists’ Books", "Art"]
+    "tags": [
+      "Typography",
+      "Concrete Poetry",
+      "Visual Poetry",
+      "Graphic Design",
+      "Artists’ Books",
+      "Art"
+    ]
   },
   {
     "name": "UW Bothell MFA in Creative Writing & Poetics and Friends",
@@ -420,7 +556,14 @@
     "description": "The Master of Fine Arts in Creative Writing & Poetics at the University of Washington Bothell gives writers freedom to experiment across genres and media as suits their creative practice. Emphasizing experimentation and hybridity, we invite students to participate in a community concerned with writing and art in a rapidly changing society.",
     "url": "http://www.uwb.edu/mfa",
     "handle": "",
-    "tags": ["Zines", "Literature", "Poetry", "intermedia", "hybrid", "education"]
+    "tags": [
+      "Zines",
+      "Literature",
+      "Poetry",
+      "intermedia",
+      "hybrid",
+      "education"
+    ]
   },
   {
     "name": "Veins + Arterys",
@@ -447,7 +590,14 @@
     "description": "Wolfman Books is a bookstore and small-press in Oakland, California. We are dedicated to publishing vibrant, critical non-fiction, poetry, small-run artist books and zine editions, as well as a quarterly magazine, Wolfman New Life Quarterly, exploring the intersection of arts and community in the Bay Area and beyond.",
     "url": "http://wolfmanhomerepair.com/",
     "handle": "https://www.instagram.com/wolfman_books",
-    "tags": ["Literature", "Poetry", "BIPOC", "LGBTQ+", "Social Justice", "Personal"]
+    "tags": [
+      "Literature",
+      "Poetry",
+      "BIPOC",
+      "LGBTQ+",
+      "Social Justice",
+      "Personal"
+    ]
   },
   {
     "name": "Yoffy Press",

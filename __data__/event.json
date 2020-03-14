@@ -2,8 +2,7 @@
   "time": "10:00–11:00 AM",
   "location": "Location",
   "title": "Event Title Lorem Ipsum",
-  "description":
-    "Sapien at vel orci enim ac diam metus, imperdiet ipsum, pretium mi scelerisque nulla scelerisque tincidunt sed malesuada vulputate volutpat suspendisse nullam in varius et ac pellentesque venenatis diam nam lectus turpis et vulputate sed eu dolor id tempus id.",
+  "description": "Sapien at vel orci enim ac diam metus, imperdiet ipsum, pretium mi scelerisque nulla scelerisque tincidunt sed malesuada vulputate volutpat suspendisse nullam in varius et ac pellentesque venenatis diam nam lectus turpis et vulputate sed eu dolor id tempus id.",
   "handle": "@loreimpsum",
   "url": "http://www.lipsum.com"
 }

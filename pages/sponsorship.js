@@ -38,8 +38,15 @@ const Sponsorship = () => {
           </p>
         </div>
         <div className="col-span-4 flex flex-wrap space-between">
-          {exampleSponsors.map(s => {
-            return <Sponsor url={s.url} imgSrc={s.imgSrc} name={s.name} />;
+          {exampleSponsors.map((s, i) => {
+            return (
+              <Sponsor
+                key={`${s.name}-${s.i}`}
+                url={s.url}
+                imgSrc={s.imgSrc}
+                name={s.name}
+              />
+            );
           })}
         </div>
       </section>

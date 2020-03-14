@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+* {
+  @apply leading-normal;
+}
+
 .index {
   @apply bg-blue;
 }
@@ -20,17 +24,20 @@ a {
 }
 
 h1 {
-  @apply text-xl;
+  @apply text-lg;
 }
 
 h2 {
-  @apply text-lg;
+  @apply text-md;
 }
 
 .nav__link::before {
   content: "\\\\\\\\";
+  letter-spacing: -0.25rem;
 }
 
-.nav__link:first-child::before {
-  content: "";
+@screen lg {
+  .nav__link:first-child::before {
+    content: "";
+  }
 }

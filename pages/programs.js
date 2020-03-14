@@ -13,7 +13,7 @@ const Programs = () => {
       </Helmet>
       <section className="grid gap-grid grid-cols-4 md:grid-cols-8 ">
         <div className="col-span-4">
-          <h2 className="border-b mb-sm pb-sm text-base">Saturday May 9</h2>
+          <h2 className="border-b mb-sm pb-sm">Saturday May 9</h2>
           {day1events.map((e, i) => {
             return (
               <Event
@@ -29,7 +29,7 @@ const Programs = () => {
           })}
         </div>
         <div className="col-span-4">
-          <h2 className="border-b mb-sm pb-sm text-base">Sunday May 10</h2>
+          <h2 className="border-b mb-sm pb-sm">Sunday May 10</h2>
           {day2events.map((e, i) => {
             return (
               <Event

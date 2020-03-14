@@ -105,10 +105,9 @@ module.exports = {
       ]
     },
     fontSize: {
-      base: "1rem",
-      lg: "1.25em",
-      xl: "1.75rem",
-      intro: "2rem"
+      base: "16px",
+      md: "22px",
+      lg: "32px"
     },
     fontWeight: {
       normal: "400",
@@ -125,20 +124,7 @@ module.exports = {
       auto: "auto"
     }),
     lineHeight: {
-      none: "1",
-      tight: "1.25",
-      snug: "1.375",
-      normal: "1.5",
-      relaxed: "1.625",
-      loose: "2",
-      "3": ".75rem",
-      "4": "1rem",
-      "5": "1.25rem",
-      "6": "1.5rem",
-      "7": "1.75rem",
-      "8": "2rem",
-      "9": "2.25rem",
-      "10": "2.5rem"
+      normal: "calc(1em + 8px)"
     },
     margin: theme => ({
       ...theme("spacing"),
@@ -201,15 +187,7 @@ module.exports = {
       full: "100%",
       screen: "100vw"
     }),
-    zIndex: {
-      auto: "auto",
-      "0": "0",
-      "10": "10",
-      "20": "20",
-      "30": "30",
-      "40": "40",
-      "50": "50"
-    },
+    zIndex: {},
     gap: theme => ({
       ...theme("spacing")
     }),
@@ -222,11 +200,7 @@ module.exports = {
       "5": "repeat(5, minmax(0, 1fr))",
       "6": "repeat(6, minmax(0, 1fr))",
       "7": "repeat(7, minmax(0, 1fr))",
-      "8": "repeat(8, minmax(0, 1fr))",
-      "9": "repeat(9, minmax(0, 1fr))",
-      "10": "repeat(10, minmax(0, 1fr))",
-      "11": "repeat(11, minmax(0, 1fr))",
-      "12": "repeat(12, minmax(0, 1fr))"
+      "8": "repeat(8, minmax(0, 1fr))"
     },
     gridColumn: {
       auto: "auto",
@@ -237,11 +211,7 @@ module.exports = {
       "span-5": "span 5 / span 5",
       "span-6": "span 6 / span 6",
       "span-7": "span 7 / span 7",
-      "span-8": "span 8 / span 8",
-      "span-9": "span 9 / span 9",
-      "span-10": "span 10 / span 10",
-      "span-11": "span 11 / span 11",
-      "span-12": "span 12 / span 12"
+      "span-8": "span 8 / span 8"
     },
     gridColumnStart: {
       auto: "auto",
@@ -252,12 +222,7 @@ module.exports = {
       "5": "5",
       "6": "6",
       "7": "7",
-      "8": "8",
-      "9": "9",
-      "10": "10",
-      "11": "11",
-      "12": "12",
-      "13": "13"
+      "8": "8"
     },
     gridColumnEnd: {
       auto: "auto",
@@ -268,12 +233,7 @@ module.exports = {
       "5": "5",
       "6": "6",
       "7": "7",
-      "8": "8",
-      "9": "9",
-      "10": "10",
-      "11": "11",
-      "12": "12",
-      "13": "13"
+      "8": "8"
     },
     gridTemplateRows: {
       none: "none",
@@ -313,29 +273,8 @@ module.exports = {
       "6": "6",
       "7": "7"
     },
-    transformOrigin: {
-      center: "center",
-      top: "top",
-      "top-right": "top right",
-      right: "right",
-      "bottom-right": "bottom right",
-      bottom: "bottom",
-      "bottom-left": "bottom left",
-      left: "left",
-      "top-left": "top left"
-    },
-    scale: {
-      "0": "0",
-      "50": ".5",
-      "75": ".75",
-      "90": ".9",
-      "95": ".95",
-      "100": "1",
-      "105": "1.05",
-      "110": "1.1",
-      "125": "1.25",
-      "150": "1.5"
-    },
+    transformOrigin: {},
+    scale: {},
     rotate: {
       "-180": "-180deg",
       "-90": "-90deg",
@@ -351,41 +290,10 @@ module.exports = {
       "1/2": "50%",
       full: "100%"
     }),
-    skew: {
-      "-12": "-12deg",
-      "-6": "-6deg",
-      "-3": "-3deg",
-      "0": "0",
-      "3": "3deg",
-      "6": "6deg",
-      "12": "12deg"
-    },
-    transitionProperty: {
-      none: "none",
-      all: "all",
-      default:
-        "background-color, border-color, color, fill, stroke, opacity, box-shadow, transform",
-      colors: "background-color, border-color, color, fill, stroke",
-      opacity: "opacity",
-      shadow: "box-shadow",
-      transform: "transform"
-    },
-    transitionTimingFunction: {
-      linear: "linear",
-      in: "cubic-bezier(0.4, 0, 1, 1)",
-      out: "cubic-bezier(0, 0, 0.2, 1)",
-      "in-out": "cubic-bezier(0.4, 0, 0.2, 1)"
-    },
-    transitionDuration: {
-      "75": "75ms",
-      "100": "100ms",
-      "150": "150ms",
-      "200": "200ms",
-      "300": "300ms",
-      "500": "500ms",
-      "700": "700ms",
-      "1000": "1000ms"
-    }
+    skew: {},
+    transitionProperty: {},
+    transitionTimingFunction: {},
+    transitionDuration: {}
   },
   variants: {
     accessibility: ["focus"],
@@ -393,7 +301,7 @@ module.exports = {
     alignItems: ["responsive"],
     alignSelf: ["responsive"],
     appearance: [],
-    backgroundAttachment: ["responsive"],
+    backgroundAttachment: [],
     backgroundColor: ["responsive", "hover", "focus"],
     backgroundPosition: ["responsive"],
     backgroundRepeat: ["responsive"],
@@ -416,7 +324,7 @@ module.exports = {
     float: [],
     clear: [],
     fontFamily: [],
-    fontSize: [],
+    fontSize: ["responsive"],
     fontSmoothing: [],
     fontStyle: [],
     fontWeight: ["hover", "focus"],
@@ -456,7 +364,7 @@ module.exports = {
     whitespace: [],
     width: ["responsive"],
     wordBreak: [],
-    zIndex: ["responsive"],
+    zIndex: [],
     gap: ["responsive"],
     gridAutoFlow: ["responsive"],
     gridTemplateColumns: ["responsive"],
@@ -469,10 +377,10 @@ module.exports = {
     gridRowEnd: ["responsive"],
     transform: [],
     transformOrigin: [],
-    scale: ["hover", "focus"],
-    rotate: ["hover", "focus"],
-    translate: ["hover", "focus"],
-    skew: ["hover", "focus"],
+    scale: [],
+    rotate: [],
+    translate: [],
+    skew: [],
     transitionProperty: [],
     transitionTimingFunction: [],
     transitionDuration: []

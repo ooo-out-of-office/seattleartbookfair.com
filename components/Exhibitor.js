@@ -1,8 +1,8 @@
 export default function Exhibitor(props) {
-  const { time, location, title, description, handle, url } = props;
+  const { time, location, title, description, handle, url, ...other } = props;
 
   return (
-    <article>
+    <article className="my-lg" {...other}>
       <div className="flex">
         <span className="mr-auto">{time}</span>
         <span>{location}</span>
@@ -12,11 +12,13 @@ export default function Exhibitor(props) {
       <p>{description}</p>
 
       <div>
-        <a rel="noopener" target="_blank" href={handle}>
-          {handle}
-        </a>
+        {handle && (
+          <a rel="noopener noreferrer" target="_blank" href={handle}>
+            {handle}
+          </a>
+        )}
         <br />
-        <a rel="noopener" target="_blank" href={url}>
+        <a rel="noopener noreferrer" target="_blank" href={url}>
           {url}
         </a>
       </div>

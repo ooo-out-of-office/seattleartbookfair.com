@@ -1,31 +1,21 @@
-import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import exhibitors from "../__data__/exhibitors.json";
 import Exhibitor from "../components/Exhibitor";
 
 const Exhibitors = () => {
-  const [currentExhibitor, setCurrentExhibitor] = useState(exhibitors[0]);
-
   return (
     <React.Fragment>
       <Helmet>
         <title>Exhibitors</title>
       </Helmet>
-      <div className="sticky top-0">
-        <ul className="flex flex-row flex-wrap text-sm">
+      <div>
+        <ul className="flex flex-auto flex-row flex-wrap text-sm">
           {exhibitors.map(e => {
             return (
-              <li key={e.name} className="mr-sm mb-sm">
-                <span
-                  className={
-                    e.name === currentExhibitor.name ? "underline" : null
-                  }
-                  onClick={() => {
-                    setCurrentExhibitor(e);
-                  }}
-                >
+              <li key={e.name} style={{ width: "20%" }}>
+                <a href={`#${e.name.toLowerCase().replace(/\s/gi, "-")}`}>
                   {e.name}
-                </span>
+                </a>
               </li>
             );
           })}
@@ -33,14 +23,19 @@ const Exhibitors = () => {
       </div>
       <section className="grid gap-grid gap-grid grid-cols-4 md:grid-cols-8 ">
         <div className="col-span-4">
-          <Exhibitor
-            time={currentExhibitor.time}
-            location={currentExhibitor.location}
-            title={currentExhibitor.name}
-            description={currentExhibitor.description}
-            handle={currentExhibitor.handle}
-            url={currentExhibitor.url}
-          />
+          {exhibitors.map(e => {
+            return (
+              <Exhibitor
+                id={`${e.name.toLowerCase().replace(/\s/gi, "-")}`}
+                time={e.time}
+                location={e.location}
+                title={e.name}
+                description={e.description}
+                handle={e.handle}
+                url={e.url}
+              />
+            );
+          })}
         </div>
       </section>
     </React.Fragment>

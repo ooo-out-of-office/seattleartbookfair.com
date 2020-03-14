@@ -16,7 +16,7 @@ export default class SeattleArtBookFairDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <div className="border-white md:border-lg fixed inset-0 pointer-events-none" />
+          <div className="border-white md:border-sm fixed inset-0 pointer-events-none" />
         </body>
       </html>
     );

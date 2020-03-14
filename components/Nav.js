@@ -7,7 +7,9 @@ export default function Nav() {
   function renderLink({ url, text, override }) {
     const linkText = text.toLowerCase();
     const className =
-      linkText === currentPage || override === currentPage ? "font-bold" : "";
+      linkText === currentPage || override === currentPage
+        ? "no-underline"
+        : "";
 
     return (
       <a className={`px-sm ${className}`} href={url}>
@@ -17,8 +19,8 @@ export default function Nav() {
   }
 
   return (
-    <nav>
-      <ul className="flex flex-col md:flex-row">
+    <nav className="text-md">
+      <ul className="flex flex-col lg:flex-row">
         <li className="nav__link">
           {renderLink({ url: "/", text: "About", override: "index" })}
         </li>
