@@ -9,7 +9,7 @@
     "build:css": "postcss src/styles.css -o public/styles.css",
     "export": "next export",
     "start": "next start",
-    "prepare": "npm run build:css && npm run build && npm run export "
+    "preflight": "npm run build:css && npm run build && npm run export "
   },
   "browserslist": [
     "defaults",
