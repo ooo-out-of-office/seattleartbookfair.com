@@ -4,7 +4,7 @@ import { StaticConfigProvider } from "../contexts/StaticConfig";
 import Logo from "../components/Logo";
 import Nav from "../components/Nav";
 
-class MyApp extends App {
+class SeattleArtBookFair extends App {
   render() {
     const { Component, pageProps } = this.props;
     const currentPage = Component.name.toLowerCase();
@@ -46,4 +46,4 @@ class MyApp extends App {
   }
 }
 
-export default MyApp;
+export default SeattleArtBookFair;
