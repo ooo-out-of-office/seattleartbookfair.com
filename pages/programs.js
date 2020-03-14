@@ -1,4 +1,4 @@
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import eventData from "../__data__/event.json";
 import Event from "../components/Event";
 
@@ -14,9 +14,10 @@ const Programs = () => {
       <section className="grid gap-grid grid-cols-4 md:grid-cols-8 ">
         <div className="col-span-4">
           <h2 className="border-b mb-sm pb-sm text-base">Saturday May 9</h2>
-          {day1events.map(e => {
+          {day1events.map((e, i) => {
             return (
               <Event
+                key={`${e.title}-${i}`}
                 time={e.time}
                 location={e.location}
                 title={e.title}
@@ -29,9 +30,10 @@ const Programs = () => {
         </div>
         <div className="col-span-4">
           <h2 className="border-b mb-sm pb-sm text-base">Sunday May 10</h2>
-          {day2events.map(e => {
+          {day2events.map((e, i) => {
             return (
               <Event
+                key={`${e.title}-${i}`}
                 time={e.time}
                 location={e.location}
                 title={e.title}

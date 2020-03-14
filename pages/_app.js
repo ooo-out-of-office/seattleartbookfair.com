@@ -1,5 +1,5 @@
 import App from "next/app";
-import Helmet from "react-helmet";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { StaticConfigProvider } from "../contexts/StaticConfig";
 import Logo from "../components/Logo";
 import Nav from "../components/Nav";
@@ -10,7 +10,7 @@ class MyApp extends App {
     const currentPage = Component.name.toLowerCase();
 
     return (
-      <React.Fragment>
+      <HelmetProvider>
         <Helmet
           htmlAttributes={{ lang: "en" }}
           titleTemplate="%s — Seattle Art Book Fair"
@@ -41,7 +41,7 @@ class MyApp extends App {
             </footer>
           </div>
         </StaticConfigProvider>
-      </React.Fragment>
+      </HelmetProvider>
     );
   }
 }

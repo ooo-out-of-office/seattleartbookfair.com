@@ -1,4 +1,4 @@
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import sponsorData from "../__data__/sponsor.json";
 import Sponsor from "../components/Sponsor";
 
