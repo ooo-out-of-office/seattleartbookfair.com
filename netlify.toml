@@ -1,0 +1,6 @@
+[build]
+  command = "npm run preflight"
+  publish = "out"
+
+[context.production]
+  environment = { NODE_VERSION = "12.15.0" }
